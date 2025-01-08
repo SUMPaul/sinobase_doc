@@ -26,6 +26,8 @@ Chat
 {
     "event_type":"Chat",
     "content": "你是谁？"
+    "voice_uri": "uri",
+    "duration": 10
 }
 
 Close
