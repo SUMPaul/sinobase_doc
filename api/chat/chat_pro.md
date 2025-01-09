@@ -6,7 +6,7 @@
 
 ```
 Header
-GET wss://api.chatbaobao.ai/fakeman/chat/pro
+GET wss://api.aibaobao.chat/fakeman/chat/pro
 
 request
 
