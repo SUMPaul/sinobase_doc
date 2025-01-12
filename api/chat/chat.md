@@ -8,7 +8,7 @@
 Header
 Authorization: token / ignored
 
-GET /chat/basic
+GET wss://api.aibaobao.chat/fakeman/chat/basic
 
 request
 
