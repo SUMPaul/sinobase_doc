@@ -21,7 +21,8 @@ EventType_Client_Close = "Close"    关闭连接
 Init
 {
     "event_type":"Init",
-    "role_types": [1,2]
+    "role_type": 1,
+    "temperaments": [1,2]
 }
 
 STT
