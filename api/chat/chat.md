@@ -14,12 +14,19 @@ request
 
 client event_type 枚举
 EventType_Client_Init  = "Init"     初始化 ws 链接
+EventType_Client_STT   = "STT"      获取 STT ws 链接
 EventType_Client_Chat  = "Chat"     开始对话
 EventType_Client_Close = "Close"    关闭连接
 
 Init
 {
-    "event_type":"Init"
+    "event_type":"Init",
+    "role_types": [1,2]
+}
+
+STT
+{
+    "event_type":"STT"
 }
 
 Chat
@@ -58,6 +65,18 @@ PreData
             "url_4",    // 4s说话 url
             "url_5"     // 5s说话 url
         ],
+        "speech_url": "wss://iat.xf-yun.com/v1?authorization=aG1hYyB1c2VybmFtZT0iMzM2ZTJlYTY2YjNiZDdkYzZmYmYxNzY0ODgwMDYwYzMiLCBhbGdvcml0aG09ImhtYWMtc2hhMjU2IiwgaGVhZGVycz0iaG9zdCBkYXRlIHJlcXVlc3QtbGluZSIsIHNpZ25hdHVyZT0ia0dra3JXRkt2Yi82VllCb3IyeEUxaFlRMW9YUHh3R3BOZWRnSFJ6blVzQT0i&date=Wed%2C+08+Jan+2025+08%3A11%3A08+UTC&host=iat.xf-yun.com"
+    },
+    "wait_flag": false
+}
+
+STT
+单独获取 STT ws 连接
+{
+    "event_type": "STT",
+    "err_code": 0,
+    "err_msg": "",
+    "data": {
         "speech_url": "wss://iat.xf-yun.com/v1?authorization=aG1hYyB1c2VybmFtZT0iMzM2ZTJlYTY2YjNiZDdkYzZmYmYxNzY0ODgwMDYwYzMiLCBhbGdvcml0aG09ImhtYWMtc2hhMjU2IiwgaGVhZGVycz0iaG9zdCBkYXRlIHJlcXVlc3QtbGluZSIsIHNpZ25hdHVyZT0ia0dra3JXRkt2Yi82VllCb3IyeEUxaFlRMW9YUHh3R3BOZWRnSFJ6blVzQT0i&date=Wed%2C+08+Jan+2025+08%3A11%3A08+UTC&host=iat.xf-yun.com"
     },
     "wait_flag": false
