@@ -8,7 +8,7 @@
 Header
 Authorization: token / ignored
 
-GET wss://api.aibaobao.chat/fakeman/product/suggest
+GET https://api.aibaobao.chat/fakeman/product/suggest
 
 request
 {
