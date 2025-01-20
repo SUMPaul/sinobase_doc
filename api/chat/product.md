@@ -12,7 +12,7 @@ POST https://api.aibaobao.chat/fakeman/product/suggest
 
 request
 {
-    "conversation_id":"111"
+    "chat_id":"111"
 }
 
 resp
