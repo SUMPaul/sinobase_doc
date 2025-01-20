@@ -65,6 +65,7 @@ PreData
     "err_code": 0,
     "err_msg": "",
     "data": {
+        "chat_id":"1111",
         "sign": "sign"
     }
     "wait_flag": false

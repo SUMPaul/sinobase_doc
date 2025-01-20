@@ -58,6 +58,7 @@ PreData
     "err_code": 0,
     "err_msg": "",
     "data": {
+        "chat_id":"1111",
         "urls": [
             "url_0",    // 暂停动作视频url
             "url_1",    // 1s说话 url
