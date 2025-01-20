@@ -8,7 +8,7 @@
 Header
 Authorization: token / ignored
 
-GET https://api.aibaobao.chat/fakeman/product/suggest
+POST https://api.aibaobao.chat/fakeman/product/suggest
 
 request
 {
