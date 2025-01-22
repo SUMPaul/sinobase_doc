@@ -6,7 +6,7 @@
 
 ```
 Header
-GET wss://api.aibaobao.chat/fakeman/chat/pro
+GET https://api.aibaobao.chat/fakeman/callback/shengjiAvatarClone
 
 request
 
