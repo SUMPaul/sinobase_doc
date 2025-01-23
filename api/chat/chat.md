@@ -134,4 +134,17 @@ SegTTS
     },
     "wait_flag": true
 }
+
+Prologue
+开场白
+{
+    "event_type": "Prologue",
+    "err_code": 0,
+    "err_msg": "",
+    "data": {
+        "prologue": "你想和我说点什么呢？",
+        "voice_url": ""
+    },
+    "wait_flag": false
+}
 ```
