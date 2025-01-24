@@ -22,5 +22,7 @@ resp
         "https://sinobase-dev-1331363974.cos.ap-guangzhou.myqcloud.com/image/random_frame/0cb675ad-7937-4750-bb12-6902f6c2f92c_0.png",
         "https://sinobase-dev-1331363974.cos.ap-guangzhou.myqcloud.com/image/random_frame/0cb675ad-7937-4750-bb12-6902f6c2f92c_1.png",
         "https://sinobase-dev-1331363974.cos.ap-guangzhou.myqcloud.com/image/random_frame/0cb675ad-7937-4750-bb12-6902f6c2f92c_2.png"
-    ]
+    ],
+    "message": "ok"
 }
+```
