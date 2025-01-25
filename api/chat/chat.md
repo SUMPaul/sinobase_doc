@@ -21,6 +21,7 @@ EventType_Client_Close = "Close"    关闭连接
 Init
 {
     "event_type":"Init",
+    "model_id": 62,
     "role_type": 1,
     "temperaments": [1,2]
 }
