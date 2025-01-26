@@ -5,7 +5,7 @@
 - 随机视频帧
 
 ```
-GET https://api.aibaobao.chat/fakeman/xunfei/ws&token=$token
+GET https://api.aibaobao.chat/fakeman/xunfei/ws?token=$token
 
 resp
 {
