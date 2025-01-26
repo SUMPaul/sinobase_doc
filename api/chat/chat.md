@@ -149,4 +149,13 @@ Prologue
     },
     "wait_flag": false
 }
+
+HeatBeat
+{
+    "event_type": "HeatBeat",
+    "err_code": 0,
+    "err_msg": "",
+    "data": "pong",
+    "wait_flag": true
+}
 ```
