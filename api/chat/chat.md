@@ -117,11 +117,48 @@ tts之后的语音流
     "err_code": 0,
     "err_msg": "",
     "data": {
-        "audio_stream": "AudioStream"
+        "seg_data": [
+            {
+                "total": 5,
+                "index": 0,
+                "content": "哼...",
+                "audio_uri": "https://sinobase-dev-1331363974.cos.ap-guangzhou.myqcloud.com/voice/chat/a70b87aedcaf11efb5725254004cbcc1.mp3",
+                "duration": 1
+            },
+            {
+                "total": 5,
+                "index": 1,
+                "content": "又来找我了吗？",
+                "audio_uri": "https://sinobase-dev-1331363974.cos.ap-guangzhou.myqcloud.com/voice/chat/a77127fadcaf11efb5725254004cbcc1.mp3",
+                "duration": 2
+            },
+            {
+                "total": 5,
+                "index": 2,
+                "content": "真是的，怎么总是这个时候出现...",
+                "audio_uri": "https://sinobase-dev-1331363974.cos.ap-guangzhou.myqcloud.com/voice/chat/a803b322dcaf11efb5725254004cbcc1.mp3",
+                "duration": 4
+            },
+            {
+                "total": 5,
+                "index": 3,
+                "content": "不过既然你来了，就...",
+                "audio_uri": "https://sinobase-dev-1331363974.cos.ap-guangzhou.myqcloud.com/voice/chat/a8761174dcaf11efb5725254004cbcc1.mp3",
+                "duration": 2
+            },
+            {
+                "total": 5,
+                "index": 4,
+                "content": "就勉强陪你聊会儿吧。",
+                "audio_uri": "https://sinobase-dev-1331363974.cos.ap-guangzhou.myqcloud.com/voice/chat/aa2f835ddcaf11efb5725254004cbcc1.mp3",
+                "duration": 3
+            }
+        ],
+        "audio_uri": "https://sinobase-dev-1331363974.cos.ap-guangzhou.myqcloud.com/voice/chat/aa3d8020dcaf11efb5725254004cbcc1.mp3",
+        "duration": 10
     },
     "wait_flag": false
 }
-
 
 SegTTS
 分段 TTS
