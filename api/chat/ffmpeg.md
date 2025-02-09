@@ -13,6 +13,7 @@ POST https://api.aibaobao.chat/fakeman/ffmpeg/randomFrame
 request
 {
     "url":"https://fcdn.shengjiai.com/temp/digital_human/2025-01-23/0cb675ad-7937-4750-bb12-6902f6c2f92c.mp4"
+    "count": 3
 }
 
 resp
