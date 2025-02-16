@@ -17,12 +17,13 @@ request
 }
 
 resp
+校验通过
 {
     "code": 200
 }
 
 
-
+校验不通过
 {
     "code": 400,
     "message": "sensitive verify failed"
