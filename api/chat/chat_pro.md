@@ -66,6 +66,7 @@ PreData
     "err_msg": "",
     "data": {
         "chat_id":"1111",
+        "round": 1,
         "sign": "sign"
     }
     "wait_flag": false
@@ -89,6 +90,9 @@ ChatSaved
     "event_type": "ChatSaved",
     "err_code": 0,
     "err_msg": "",
+    "data": {
+        "round": 3,
+    }
     "wait_flag": false
 }
 ```
