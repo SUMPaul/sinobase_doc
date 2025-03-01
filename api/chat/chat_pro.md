@@ -18,7 +18,10 @@ EventType_Client_Close = "Close"
 
 Init    // 返回硅基数字人 sign 签名
 {
-    "event_type":"Init"
+    "event_type":"Init",
+    "model_id": 62,
+    "role_type": 1,
+    "temperaments": [1,2]
 }
 
 Sensitive // 校验是否违规
@@ -67,7 +70,8 @@ PreData
     "data": {
         "chat_id":"1111",
         "round": 1,
-        "sign": "sign"
+        "sign": "sign",
+        "prompt":"prompt"
     }
     "wait_flag": false
 }
